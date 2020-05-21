@@ -8,10 +8,8 @@ Relies on
 * [paho mqtt](https://pypi.org/project/paho-mqtt/) for mqtt client
 
 
-```usage: mqtt-to-scrap.py [-h] [--broker-host BROKER_HOST]
-                        [--broker-port BROKER_PORT]
-                        [--broker-topic BROKER_TOPIC]
-                        [--broker-qos BROKER_QOS]
+```
+usage: mqtt-to-scrap.py [-h]  [--broker-host BROKER_HOST] [--broker-port BROKER_PORT] [--broker-topic BROKER_TOPIC] [--broker-qos BROKER_QOS]
 
 optional arguments:
   -h, --help            show this help message and exit

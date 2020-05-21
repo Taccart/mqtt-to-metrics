@@ -43,7 +43,7 @@ def subscr():
 class Webserver(object):
     @cherrypy.expose
     def metrics(self):
-        return ("".join("{!s} {!r}".format(key,val) for (key,val) in metrics.items()))
+        return (nl.join("{!s} {!r}".format(key,val) for (key,val) in metrics.items()))
 
 def startsvr():
     print("Start webserver.")
